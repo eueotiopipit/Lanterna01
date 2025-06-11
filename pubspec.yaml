@@ -1,0 +1,14 @@
+name: lanterna_app
+description: Um app simples de lanterna.
+publish_to: 'none'
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  torch_light: ^0.4.0
+
+flutter:
+  uses-material-design: true
